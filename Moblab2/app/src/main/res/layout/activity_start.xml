@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/carButton"
+        android:layout_width="198dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:contentDescription="Car Button"
+        android:src="@drawable/img1car" />
+
+    <ImageButton
+        android:id="@+id/contactButton"
+        android:layout_width="198dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:contentDescription="Car Button"
+        android:src="@drawable/img2contact" />
+
+    <ImageButton
+        android:id="@+id/geoServiceButton"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:contentDescription="Car Button"
+        android:src="@drawable/img3geo" />
+
+    <ImageButton
+        android:id="@+id/buttonPersonalPage"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:contentDescription="Car Button"
+        android:src="@drawable/img4personalpage" />
+
+</LinearLayout>
